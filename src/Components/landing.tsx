@@ -55,7 +55,7 @@ const Landing = () => {
             </p>
           ))}
 
-          <button className="uppercase border-[1.2px] py-1 px-2 font-light  text-black  border-black rounded-full hover:bg-black hover:text-white text-sm ">
+          <button className="uppercase border-[1.2px] py-1 px-2   text-black  border-black rounded-full hover:bg-black hover:text-white text-sm ">
             Start the Projct
           </button>
         </div>
