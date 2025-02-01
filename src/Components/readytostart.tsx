@@ -24,7 +24,7 @@ const Readytostart = () => {
       // data-scroll-speed="0.1"
       className="w-full  bg-[#CDEA68] rounded-xl font-['Neue_Montreal'] "
     >
-      <div className="w-full h-[42vh]  lg:h-[100vh]  flex justify-center items-center -mt-10 -mb-20 lg:-mb-0">
+      <div className="w-full h-[42vh]  lg:h-[100vh]  flex justify-center items-center -mt-10  -mb-20 lg:-mb-0">
         <div className="">
           {["Ready", "To Start", "The Project?"].map((ele, index) => (
             <motion.h1

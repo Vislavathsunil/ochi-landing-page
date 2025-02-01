@@ -49,7 +49,7 @@ const Landing = () => {
           ].map((item, index) => (
             <p
               key={index}
-              className="font-light leading-none tracking-tight text-sm md:text-lg text-black "
+              className=" leading-none tracking-tight text-sm md:text-lg text-black "
             >
               {item}
             </p>

@@ -77,18 +77,10 @@ const Footer = () => {
                 <div className="flex flex-col gap-4">
                   <div>
                     <h2 className="underline text-[16px] cursor-pointer">
-                      202-1965 W 4th Ave
+                      34-78/52, Hitech City
                     </h2>
                     <h2 className="underline text-[16px] cursor-pointer">
-                      Vancouver, Canada
-                    </h2>
-                  </div>
-                  <div>
-                    <h2 className="underline text-[16px] cursor-pointer">
-                      30 Chukarina St
-                    </h2>
-                    <h2 className="underline text-[16px] cursor-pointer">
-                      Lviv, Ukraine
+                      Hyderbad, Telangan
                     </h2>
                   </div>
                 </div>

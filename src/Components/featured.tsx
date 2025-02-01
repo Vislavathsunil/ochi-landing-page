@@ -10,7 +10,7 @@ const Featured = () => {
           Featured projects
         </h1>
       </div>
-
+j
       <motion.div className=" px-6 md:grid md:grid-cols-2 gap-5 mb-10">
         {featuredData.map((ele) => (
           <div
