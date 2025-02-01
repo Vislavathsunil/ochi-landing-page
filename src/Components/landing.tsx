@@ -49,13 +49,13 @@ const Landing = () => {
           ].map((item, index) => (
             <p
               key={index}
-              className="font-light leading-none tracking-tight text-sm md:text-lg "
+              className="font-light leading-none tracking-tight text-sm md:text-lg text-black "
             >
               {item}
             </p>
           ))}
 
-          <button className="uppercase border-[1.2px] py-1 px-2 font-light  border-black rounded-full hover:bg-black hover:text-white text-sm ">
+          <button className="uppercase border-[1.2px] py-1 px-2 font-light  text-black  border-black rounded-full hover:bg-black hover:text-white text-sm ">
             Start the Projct
           </button>
         </div>

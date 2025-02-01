@@ -6,7 +6,7 @@ const Featured = () => {
   return (
     <div className="w-full pt-20 pb-10 bg-zinc-100 font-['Neue_Montreal']">
       <div className="px-6 border-b-[1.3px] border-zinc-500 pb-6 mb-14">
-        <h1 className="text-[7vw] sm:text-[4.2vw] tracking-normal sm:tracking-tight ">
+        <h1 className="text-[7.5vw] sm:text-[4.2vw] tracking-normal sm:tracking-tight ">
           Featured projects
         </h1>
       </div>

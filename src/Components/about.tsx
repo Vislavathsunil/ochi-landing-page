@@ -10,7 +10,7 @@ const About = () => {
       className="w-full bg-[#CDEA68] pt-14 sm:pt-20 pb-5    font-['Neue_Montreal']"
     >
       <div className="px-6">
-        <h1 className=" text-[8vw] sm:text-[4.5vw] leading-[7vw] sm:leading-[4.5vw]  text-[#212121] tracking-wide">
+        <h1 className=" text-[8vw] sm:text-[4.5vw] leading-[9vw] sm:leading-[4.5vw]  text-[#212121] tracking-wide">
           Ochi is a strategic presentation agency for forward-thinking
           businesses that need to{" "}
           <span className="underline"> raise funds</span>,
@@ -26,7 +26,7 @@ const About = () => {
             <p>What you can expect:</p>
           </div>
 
-          <div className="md:w-1/2 flex flex-col gap-10 pr-20 lg:pr-32">
+          <div className="md:w-1/2 flex flex-col gap-10 pr-14 sm:pr-20 lg:pr-32">
             <p className="lg:pr-16">
               We create tailored presentations to help you persuade your
               colleagues, clients, or investors. Whether it's live or digital,
