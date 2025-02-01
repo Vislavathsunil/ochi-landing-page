@@ -1,8 +1,8 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 
-type Props = {};
+ 
 
-const Eye = (props: Props) => {
+const Eye = () => {
   const [rotate, setRotate] = useState(0);
   useEffect(() => {
     window.addEventListener("mousemove", (e) => {

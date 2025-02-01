@@ -1,10 +1,9 @@
 import { GoDotFill } from "react-icons/go";
-
-type Props = {};
-
+ 
 
 
-const About = (props: Props) => {
+
+const About = () => {
   return (
     <div
       // data-scroll

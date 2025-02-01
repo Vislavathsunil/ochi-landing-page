@@ -1,9 +1,6 @@
 import { motion } from "framer-motion";
-import React from "react";
 
-type Props = {};
-
-const Landing = (props: Props) => {
+const Landing = () => {
   return (
     <div
       // data-scroll
@@ -24,7 +21,6 @@ const Landing = (props: Props) => {
                 animate={{ width: "9vw" }}
                 transition={{ ease: [0.87, 0, 0.13, 1], duration: 1 }}
                 className="w-full  mr-[1vh] relative top-1 bg-blue-400 rounded-lg overflow-hidden"
-                
               >
                 <img
                   src="src\assets\ochi-card.png"

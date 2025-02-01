@@ -1,9 +1,4 @@
-import { h2 } from "framer-motion/client";
-import React from "react";
-
-type Props = {};
-
-const Footer = (props: Props) => {
+const Footer = () => {
   return (
     <div className="w-full   md:pt-20 pb-8 px-4  md:flex gap-6 ">
       <div className="w-5/12 lg:h-screen  flex flex-col justify-between">
@@ -151,7 +146,9 @@ const Footer = (props: Props) => {
                     "Insights",
                     "Contact us",
                   ].map((ele, index) => (
-                    <h2 className="underline cursor-pointer">{ele}</h2>
+                    <h2 key={index} className="underline cursor-pointer">
+                      {ele}
+                    </h2>
                   ))}
                 </div>
               </div>

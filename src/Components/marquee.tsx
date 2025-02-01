@@ -1,9 +1,6 @@
-import React from "react";
 import { motion } from "framer-motion";
 
-type Props = {};
-
-const Marquee = (props: Props) => {
+const Marquee = () => {
   return (
     <div
       // data-scroll

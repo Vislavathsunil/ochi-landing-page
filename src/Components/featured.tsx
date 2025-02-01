@@ -1,11 +1,8 @@
-import React from "react";
 import { featuredData } from "../Data/featured";
 import { GoDotFill } from "react-icons/go";
 import { motion } from "framer-motion";
 
-type Props = {};
-
-const Featured = (props: Props) => {
+const Featured = () => {
   return (
     <div className="w-full pt-20 pb-10 bg-zinc-100 font-['Neue_Montreal']">
       <div className="px-6 border-b-[1.3px] border-zinc-500 pb-6 mb-14">

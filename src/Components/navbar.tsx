@@ -1,11 +1,8 @@
-import { nav } from "framer-motion/client";
 import { useState } from "react";
-import { FaBars, FaTimes } from "react-icons/fa";
+import { FaTimes } from "react-icons/fa";
 import { HiMiniBars3 } from "react-icons/hi2";
 
-type Props = {};
-
-const Navbar = (props: Props) => {
+const Navbar = () => {
   const [navigationToggle, setNavigationToggle] = useState(false);
 
   const handleMobile = () => {

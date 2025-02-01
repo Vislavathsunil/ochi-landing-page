@@ -1,10 +1,8 @@
 import { motion } from "framer-motion";
-import React, { useEffect, useState } from "react";
-import { GoDot, GoDotFill } from "react-icons/go";
+import { useEffect, useState } from "react";
+import { GoDotFill } from "react-icons/go";
 
-type Props = {};
-
-const Readytostart = (props: Props) => {
+const Readytostart = () => {
   const [rotate, setRotate] = useState(0);
 
   useEffect(() => {
@@ -33,7 +31,7 @@ const Readytostart = (props: Props) => {
               initial={{ opacity: 0, y: 50 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.3, duration: index * 0.5 }}
-              viewport={{once:true}}
+              viewport={{ once: true }}
               className="uppercase text-[12.5vw] sm:text-[10vw] flex justify-center font-extrabold leading-none"
             >
               {ele}

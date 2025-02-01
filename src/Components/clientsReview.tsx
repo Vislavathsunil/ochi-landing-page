@@ -1,10 +1,10 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 import { clientsNames, OchiCards } from "../Data/featured";
 
-type Props = {};
 
-const ClientsReview = (props: Props) => {
+
+const ClientsReview = () => {
   const [openAccordion, setOpenAccordion] = useState<null | number>(0);
 
   return (
