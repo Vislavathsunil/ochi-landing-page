@@ -1,13 +1,13 @@
 const Footer = () => {
   return (
-    <div className="w-full   md:pt-20 pb-8 px-4  md:flex gap-6 ">
+    <div className="w-full  pt-16 md:pt-20 pb-8 px-4  md:flex gap-6 ">
       <div className="w-5/12 lg:h-screen  flex flex-col justify-between">
         {/* Eye Opening */}
         <div>
-          <h1 className="uppercase  text-[10vw]  md:text-[5.5vw] font-bold leading-none tracking-tighter">
+          <h1 className="uppercase  text-[11vw]  md:text-[5.5vw] font-bold leading-none tracking-tighter">
             Eye-
           </h1>
-          <h1 className="uppercase text-[10vw]  md:text-[5.5vw] font-bold leading-none tracking-tighter">
+          <h1 className="uppercase text-[11vw]  md:text-[5.5vw] font-bold leading-none tracking-tighter">
             Opening
           </h1>
         </div>

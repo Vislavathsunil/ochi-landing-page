@@ -49,9 +49,6 @@ const Readytostart = () => {
       >
         <div className="w-[22vw] lg:w-[15vw] h-[22vw] lg:h-[15vw]  bg-white  rounded-full relative">
           <div className="w-2/3 h-2/3 bg-black rounded-full absolute top-1/2 left-1/2 -translate-x-[50%] -translate-y-[50%]">
-            <h2 className="absolute top-1/2 left-1/2 -translate-x-[50%] -translate-y-[50%] uppercase text-white">
-              Play
-            </h2>
             <div
               style={{
                 transform: `translate(-50%,-50%) rotate(${rotate}deg) `,
@@ -64,9 +61,6 @@ const Readytostart = () => {
         </div>
         <div className="w-[22vw] lg:w-[15vw] h-[22vw] lg:h-[15vw]  bg-white  rounded-full relative">
           <div className="w-2/3 h-2/3 bg-black rounded-full absolute top-1/2 left-1/2 -translate-x-[50%] -translate-y-[50%]">
-            <h2 className="absolute top-1/2 left-1/2 -translate-x-[50%] -translate-y-[50%] uppercase text-white">
-              Play
-            </h2>
             <div
               style={{
                 transform: `translate(-50%,-50%) rotate(${rotate}deg) `,

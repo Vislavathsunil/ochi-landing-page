@@ -1,7 +1,5 @@
 import { useEffect, useState } from "react";
 
- 
-
 const Eye = () => {
   const [rotate, setRotate] = useState(0);
   useEffect(() => {
@@ -30,9 +28,9 @@ const Eye = () => {
           data-scroll-speed=""
           className="absolute  top-1/2 left-1/2 -translate-x-[50%] -translate-y-[50%] flex justify-center items-center gap-10"
         >
-          <div className=" w-[35vw] lg:w-[16vw] md:w-[25vw] h-[35vw] lg:h-[16vw] md:h-[25vw]  bg-white rounded-full flex justify-center items-center">
+          <div className=" w-[24vw] sm:w-[35vw] md:w-[25vw] lg:w-[16vw] h-[24vw] sm:h-[35vw]   md:h-[25vw]  lg:h-[16vw] bg-white rounded-full flex justify-center items-center">
             <div className="w-2/3 h-2/3  bg-black rounded-full text-white relative">
-              <h2 className="absolute top-1/2 left-1/2 -translate-x-[50%] -translate-y-[50%] uppercase">
+              <h2 className="absolute top-1/2 left-1/2 -translate-x-[50%] -translate-y-[50%] uppercase text-xs sm:text-sm">
                 Play
               </h2>
               <div
@@ -45,9 +43,9 @@ const Eye = () => {
               </div>
             </div>
           </div>
-          <div className="w-[35vw] lg:w-[16vw] md:w-[25vw] h-[35vw] lg:h-[16vw] md:h-[25vw]   bg-white rounded-full flex justify-center items-center">
+          <div className="w-[24vw]  sm:w-[35vw] md:w-[25vw] lg:w-[16vw] h-[24vw] sm:h-[35vw]  md:h-[25vw] lg:h-[16vw]   bg-white rounded-full flex justify-center items-center">
             <div className="w-2/3 h-2/3  bg-black rounded-full text-white relative">
-              <h2 className="absolute top-1/2 left-1/2 -translate-x-[50%] -translate-y-[50%] uppercase">
+              <h2 className="absolute top-1/2 left-1/2 -translate-x-[50%] -translate-y-[50%] uppercase text-xs sm:text-sm">
                 Play
               </h2>
               <div

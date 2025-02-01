@@ -10,7 +10,7 @@ const ClientsReview = () => {
   return (
     <div className="w-full font-['Neue_Montreal'] bg-zinc-100 pb-8">
       <div className="px-6 border-b-[1.3px] border-zinc-500 pb-10 mb-4">
-        <h1 className="text-[7vw] md:text-[4.5vw]  ">Client's reviews</h1>
+        <h1 className="text-[8vw] md:text-[4.5vw]  ">Client's reviews</h1>
       </div>
 
       {/* Client Name, Pic And Review */}

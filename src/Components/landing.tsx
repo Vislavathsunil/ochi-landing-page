@@ -1,5 +1,7 @@
 import { motion } from "framer-motion";
 
+import ochiCard from "../assets/ochi-card.png";
+
 const Landing = () => {
   return (
     <div
@@ -20,10 +22,10 @@ const Landing = () => {
                 initial={{ width: 0 }}
                 animate={{ width: "9vw" }}
                 transition={{ ease: [0.87, 0, 0.13, 1], duration: 1 }}
-                className="w-full  mr-[1vh] relative top-1 bg-blue-400 rounded-lg overflow-hidden"
+                className="w-full  mr-[1vh] relative top-1  rounded-lg overflow-hidden"
               >
                 <img
-                  src="src\assets\ochi-card.png"
+                  src={ochiCard}
                   alt="ochiCard"
                   className="w-full h-full object-cover"
                 />
@@ -47,13 +49,13 @@ const Landing = () => {
           ].map((item, index) => (
             <p
               key={index}
-              className="font-light leading-none tracking-tight text-sm md:text-lg text-zinc-700"
+              className="font-light leading-none tracking-tight text-sm md:text-lg "
             >
               {item}
             </p>
           ))}
 
-          <button className="uppercase border-[1.2px] py-1 px-2 font-light text-zinc-700 border-black rounded-full hover:bg-black hover:text-white text-sm ">
+          <button className="uppercase border-[1.2px] py-1 px-2 font-light  border-black rounded-full hover:bg-black hover:text-white text-sm ">
             Start the Projct
           </button>
         </div>

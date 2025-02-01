@@ -13,7 +13,7 @@ const Marquee = () => {
           initial={{ x: 0 }}
           animate={{ x: "-100%" }}
           transition={{ repeat: Infinity, ease: "linear", duration: 5 }}
-          className='text-[20vw] font-semibold font-["Neue_Montreal"] uppercase leading-none -mb-[1vw] -mt-[1.5vw] pr-8'
+          className='text-[30vw] sm:text-[20vw] font-semibold font-["Neue_Montreal"] uppercase leading-none -mb-[1vw] -mt-[1.5vw] pr-8'
         >
           We are ochi
         </motion.h1>
@@ -21,7 +21,7 @@ const Marquee = () => {
           initial={{ x: 0 }}
           animate={{ x: "-100%" }}
           transition={{ repeat: Infinity, ease: "linear", duration: 5 }}
-          className='text-[20vw] font-semibold font-["Neue_Montreal"] uppercase leading-none -mb-[1vw] -mt-[1.5vw] '
+          className='text-[30vw] sm:text-[20vw] font-semibold font-["Neue_Montreal"] uppercase leading-none -mb-[1vw] -mt-[1.5vw] '
         >
           We are ochi
         </motion.h1>
